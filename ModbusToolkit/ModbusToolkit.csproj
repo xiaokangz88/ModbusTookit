@@ -1,26 +1,24 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;net452</TargetFrameworks>
-    <Authors>Xiaokang Zhang</Authors>
-    <Company />
-    <PackageReadmeFile>README.md</PackageReadmeFile>
-    <PackageTags>modbus;tcp;protocol</PackageTags>
-    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Description>A simle modbus library.</Description>
-    <PackageProjectUrl>https://github.com/xiaokangz88/ModbusTookit</PackageProjectUrl>
-  </PropertyGroup>
+	<PropertyGroup>
+		<Version>1.0.1</Version>
+		<TargetFrameworks>netstandard2.0;net452</TargetFrameworks>
+		<Authors>Xiaokang Zhang</Authors>
+		<Company />
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageTags>modbus;tcp;protocol</PackageTags>
+		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<Description>A simle modbus library.</Description>
+		<PackageProjectUrl>https://github.com/xiaokangz88/ModbusTookit</PackageProjectUrl>
+		<PackageReleaseNotes>Remove log4net dependency.</PackageReleaseNotes>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <None Include="..\README.md">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="log4net" Version="2.0.14" />
-  </ItemGroup>
+	<ItemGroup>
+		<None Include="..\README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
 
 </Project>
